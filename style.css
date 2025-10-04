@@ -2995,3 +2995,192 @@
     font-size: 1rem;
   }
 }
+
+/* ========================================
+   MOBILE RESPONSIVE FIXES
+   ======================================== */
+
+/* About Section Code Editor - Mobile Fix */
+@media (max-width: 768px) {
+  .about-image-box {
+    height: 350px;
+  }
+  
+  .code-editor {
+    font-size: 0.75rem;
+  }
+  
+  .editor-body {
+    padding: 1rem;
+    font-size: 0.75rem;
+  }
+  
+  .code-line {
+    gap: 0.8rem;
+  }
+  
+  .line-number {
+    min-width: 25px;
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-image-box {
+    height: 300px;
+  }
+  
+  .editor-body {
+    font-size: 0.65rem;
+    padding: 0.8rem;
+  }
+  
+  .code-line {
+    gap: 0.5rem;
+  }
+  
+  .floating-icons {
+    display: none;
+  }
+  
+  .profile-image {
+    width: 220px;
+    height: 220px;
+  }
+}
+
+/* Services Section - Mobile Fix */
+@media (max-width: 768px) {
+  .services-container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  
+  .service-card {
+    padding: 2rem 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .service-title {
+    font-size: 1.4rem;
+  }
+  
+  .service-description {
+    font-size: 1rem;
+  }
+  
+  .service-icon-wrapper {
+    width: 65px;
+    height: 65px;
+  }
+  
+  .service-icon {
+    font-size: 2.2rem;
+  }
+}
+
+/* Projects - Mobile Fix */
+@media (max-width: 480px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  
+  .project-card {
+    margin: 0 0.5rem;
+  }
+  
+  .project-image {
+    height: 200px;
+  }
+  
+  .project-content {
+    padding: 1.5rem;
+  }
+  
+  .project-footer {
+    flex-direction: column;
+    gap: 1rem;
+    align-items: flex-start;
+  }
+  
+  .view-project-btn {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+/* Testimonials - Mobile Fix */
+@media (max-width: 480px) {
+  .testimonial-text {
+    font-size: 1rem;
+    padding-left: 0.5rem;
+  }
+  
+  .testimonial-author {
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 0.5rem;
+    gap: 1rem;
+  }
+  
+  .quote-icon {
+    font-size: 2.5rem;
+    top: 0.5rem;
+    left: 0.5rem;
+  }
+}
+
+/* Footer - Mobile Fix */
+@media (max-width: 480px) {
+  .footer-section {
+    padding: 2rem 4% 1rem;
+  }
+  
+  .footer-list li a {
+    font-size: 0.85rem;
+  }
+  
+  .footer-contact li {
+    font-size: 0.85rem;
+    word-break: break-word;
+  }
+  
+  .footer-title {
+    font-size: 1.1rem;
+  }
+}
+
+/* Universal Small Device Fix */
+@media (max-width: 360px) {
+  body {
+    font-size: 14px;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+  }
+  
+  .section-subtitle {
+    font-size: 0.95rem;
+  }
+  
+  .btn {
+    padding: 0.9rem 1.5rem;
+    font-size: 0.9rem;
+  }
+  
+  nav {
+    padding: 1rem 4%;
+  }
+  
+  .nav-links {
+    width: 85%;
+  }
+  
+  .profile-image {
+    width: 200px;
+    height: 200px;
+  }
+}
