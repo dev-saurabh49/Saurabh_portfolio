@@ -1,0 +1,5 @@
+User-agent: *
+
+Allow: /
+
+Sitemap: https://saurabh-495.netlify.app/sitemap.xml
